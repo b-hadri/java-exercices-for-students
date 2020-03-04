@@ -1,4 +1,4 @@
-package hbi.training.java.trainingwithstudents.java3helb2eme.ex001BourseAchatVente;
+package hbi.training.exercices.java3helb2eme.ex001BourseAchatVente;
 
 import java.text.DecimalFormat;
 

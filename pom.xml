@@ -15,13 +15,13 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>hbi.training.java</groupId>
+    <groupId>hbi.training.exercices</groupId>
     <artifactId>training-with-students</artifactId>
 
     <version>0.0.1-SNAPSHOT</version>
 
     <packaging>pom</packaging>
-    <name>Java Exercices - HELB, 2ème</name>
+    <name>Java Exercices with students</name>
 
 
     <properties>
