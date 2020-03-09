@@ -1,5 +1,7 @@
 package hbi.training.exercices.java3helb2eme.ex005Canard;
 
+import hbi.training.exercices.java3helb2eme.ex005Canard.lescanards.Canard;
+
 public class UseCase001Abdel {
 
 

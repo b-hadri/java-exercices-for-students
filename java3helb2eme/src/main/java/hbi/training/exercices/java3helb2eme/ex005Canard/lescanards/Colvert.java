@@ -1,7 +1,5 @@
 package hbi.training.exercices.java3helb2eme.ex005Canard.lescanards;
 
-import hbi.training.exercices.java3helb2eme.ex005Canard.Canard;
-
 public class Colvert  extends Canard {
 
 

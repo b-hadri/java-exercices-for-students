@@ -1,4 +1,4 @@
-package hbi.training.exercices.java3helb2eme.ex005Canard;
+package hbi.training.exercices.java3helb2eme.ex005Canard.lescanards;
 
 public abstract class Canard {
 
