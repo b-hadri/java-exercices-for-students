@@ -16,7 +16,7 @@
     </parent>
 
     <groupId>hbi.training.exercices</groupId>
-    <artifactId>training-with-students</artifactId>
+    <artifactId>java-exercices-for-students</artifactId>
 
     <version>0.0.1-SNAPSHOT</version>
 

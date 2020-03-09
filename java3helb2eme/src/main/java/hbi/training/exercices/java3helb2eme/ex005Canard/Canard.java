@@ -16,7 +16,7 @@ public abstract class Canard {
         System.out.println("Je flotte...");
     }
 
-    abstract public void cancanner();
+    abstract public void cancanne();
 
     abstract public void voler(int pendantXJours);
 
@@ -38,12 +38,14 @@ public abstract class Canard {
     }
 
 
-    public void seBlesser() {
+    public void seBlesse() {
         this.blesse = true;
+        System.out.println("Je me blesse");
     }
 
 
-    public void seGuerir() {
+    public void guerit() {
         this.blesse = false;
+        System.out.println("Je guéris");
     }
 }
