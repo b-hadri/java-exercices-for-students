@@ -9,23 +9,23 @@ public class UseCase001Abdel {
 
 
         // créer un Colvert ou un Fuligule
-        Canard canardColvert = FabriqueCanard.create("FULIGULE");
-//        Canard canardColvert = FabriqueCanard.create("COLVERT");
+//        Canard canard = FabriqueCanard.create("FULIGULE");
+        Canard canard = FabriqueCanard.create("COLVERT");
 
         // voler 10 j.
-        canardColvert.voler(10);
+        canard.voler(10);
 
         // se blesse
-        canardColvert.seBlesse();
+        canard.seBlesse();
 
         // fait un cancan
-        canardColvert.cancanne();
+        canard.cancanne();
 
         // il guérit
-        canardColvert.guerit();
+        canard.guerit();
 
         // fait un cancan
-        canardColvert.cancanne();
+        canard.cancanne();
 
 
     }
