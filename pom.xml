@@ -6,6 +6,7 @@
 
     <modules>
         <module>java3helb2eme</module>
+        <module>javafxexamples</module>
     </modules>
 
     <parent>
@@ -41,6 +42,7 @@
             <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
+
 
 
 </project>
