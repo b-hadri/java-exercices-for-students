@@ -10,18 +10,18 @@ public class Fuligule extends Canard {
     @Override
     public void cancanne() {
         if (isBlesse()) {
-            System.out.println("Je cancanne comme un Fuligule blessé...");
+            System.out.println("Je cancanne comme un Fuligule blessé");
         } else {
-            System.out.println("Je cancanne comme un Fuligule...");
+            System.out.println("Je cancanne comme un Fuligule");
         }
     }
 
     @Override
-    public void voler(int pendantXJours) {
+    public void vole(int pendantXJours) {
         if(this.isBlesse()) {
-            System.out.println("Je vole comme un Fuligule blessé pendant "+pendantXJours+"......");
+            System.out.println("Je vole comme un Fuligule blessé pendant "+pendantXJours+" jours");
         } else {
-            System.out.println("Je vole comme un Fuligule pendant "+pendantXJours+"......");
+            System.out.println("Je vole comme un Fuligule pendant "+pendantXJours+" jours");
         }
     }
 

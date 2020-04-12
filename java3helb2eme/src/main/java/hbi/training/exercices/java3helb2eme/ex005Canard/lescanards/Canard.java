@@ -18,7 +18,7 @@ public abstract class Canard {
 
     abstract public void cancanne();
 
-    abstract public void voler(int pendantXJours);
+    abstract public void vole(int pendantXJours);
 
 
 

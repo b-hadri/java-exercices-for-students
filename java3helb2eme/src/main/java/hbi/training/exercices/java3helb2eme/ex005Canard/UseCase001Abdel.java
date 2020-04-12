@@ -7,26 +7,18 @@ public class UseCase001Abdel {
 
     public static void main(String[] args) {
 
+//        Canard canard = FabriqueCanard.create("FULIGULE");
+        Canard canard = FabriqueCanard.create("COLVERT");
 
-        // créer un Colvert ou un Fuligule
-        Canard canardColvert = FabriqueCanard.create("FULIGULE");
-//        Canard canardColvert = FabriqueCanard.create("COLVERT");
+        canard.vole(10);
 
-        // voler 10 j.
-        canardColvert.voler(10);
+        canard.seBlesse();
 
-        // se blesse
-        canardColvert.seBlesse();
+        canard.cancanne();
 
-        // fait un cancan
-        canardColvert.cancanne();
+        canard.guerit();
 
-        // il guérit
-        canardColvert.guerit();
-
-        // fait un cancan
-        canardColvert.cancanne();
-
+        canard.cancanne();
 
     }
 

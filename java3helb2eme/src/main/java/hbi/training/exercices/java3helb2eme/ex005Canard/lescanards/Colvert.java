@@ -11,19 +11,19 @@ public class Colvert  extends Canard {
     @Override
     public void cancanne() {
         if (isBlesse()) {
-            System.out.println("Je cancanne comme un Colvert blessé...");
+            System.out.println("Je cancanne comme un Colvert blessé");
         } else {
-            System.out.println("Je cancanne comme un Colvert...");
+            System.out.println("Je cancanne comme un Colvert");
         }
     }
 
     @Override
-    public void voler(int pendantXJours) {
+    public void vole(int pendantXJours) {
 
             if (isBlesse()) {
-                System.out.println("Je vole comme un Colvert blessé pendant "+pendantXJours+" jour...");
+                System.out.println("Je vole comme un Colvert blessé pendant "+pendantXJours+" jours");
             } else {
-                System.out.println("Je vole comme un Colvert pendant "+pendantXJours+" jour...");
+                System.out.println("Je vole comme un Colvert pendant "+pendantXJours+" jours");
 
             }
 
