@@ -17,6 +17,13 @@
             <artifactId>javafx-controls</artifactId>
             <version>11.0.2</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.openjfx/javafx-fxml -->
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>11.0.1</version>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -26,10 +33,19 @@
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.4</version>
                 <configuration>
-                    <mainClass>hbi.training.exercices.java3helb2eme.javafx.ex001.HelloFX</mainClass>
+<!--                    <mainClass>hbi.training.exercices.java3helb2eme.javafx.exFxml.MainExampleFxml</mainClass>-->
+                    <mainClass>hbi.training.exercices.java3helb2eme.javafx.exPage090.MainExP090</mainClass>
                 </configuration>
             </plugin>
         </plugins>
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.fxml</include>
+                </includes>
+            </resource>
+        </resources>
     </build>
 
 

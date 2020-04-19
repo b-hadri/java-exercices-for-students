@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="204.0" prefWidth="274.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hbi.training.exercices.java3helb2eme.javafx.exPage090.ui.AddDepenseController">
+   <children>
+      <Pane prefHeight="240.0" prefWidth="272.0">
+         <children>
+            <Label layoutX="24.0" layoutY="14.0" text="Ajouter une dette">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="24.0" layoutY="63.0" text="Le créancier" />
+            <Label layoutX="24.0" layoutY="104.0" text="Le montant" />
+            <TextField fx:id="creancierTf" layoutX="114.0" layoutY="58.0" prefHeight="26.0" prefWidth="137.0" />
+            <TextField fx:id="montantTf" layoutX="114.0" layoutY="99.0" prefHeight="26.0" prefWidth="137.0" />
+            <Button layoutX="186.0" layoutY="147.0" mnemonicParsing="false" onAction="#ajouterUneDette" text="Ajouter" />
+            <Label fx:id="messageErrorLbl" layoutX="22.0" layoutY="200.0" prefHeight="16.0" prefWidth="228.0" text="message d'erreur" textFill="#f80505">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
