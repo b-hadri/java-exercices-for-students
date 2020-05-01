@@ -8,7 +8,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
-public class AddDepenseController {
+public class AddDetteController {
 
     private DettesManager dettesManager;
 

@@ -16,6 +16,10 @@ public class DettesManager {
         this.lesDettes.add(dette);
     }
 
+    public void supprimerUneDette(Dette dette) {
+        this.lesDettes.remove(dette);
+    }
+
     public List<Dette> toutesLesDettes() {
         return this.lesDettes;
     }

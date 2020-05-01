@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="51.0" prefWidth="416.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hbi.training.exercices.java3helb2eme.javafx.exPage090.ui.RowDetteController">
+   <children>
+      <Label fx:id="detteLbl" layoutX="25.0" layoutY="18.0" text="Vous devez ...">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Label>
+      <Button fx:id="rmvDetteBtn" layoutX="336.0" layoutY="15.0" mnemonicParsing="false" text="supprimer" textFill="#fc0000">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

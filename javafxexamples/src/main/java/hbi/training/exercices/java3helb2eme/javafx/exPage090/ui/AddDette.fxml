@@ -5,7 +5,7 @@
 <?import javafx.scene.text.*?>
 
 
-<AnchorPane prefHeight="204.0" prefWidth="274.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hbi.training.exercices.java3helb2eme.javafx.exPage090.ui.AddDepenseController">
+<AnchorPane prefHeight="204.0" prefWidth="274.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hbi.training.exercices.java3helb2eme.javafx.exPage090.ui.AddDetteController">
    <children>
       <Pane prefHeight="240.0" prefWidth="272.0">
          <children>
