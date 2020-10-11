@@ -8,7 +8,7 @@ public class Exercice04TrierChiffresNombreEntier {
     public static void main(String[] args) {
 
         // -------------------------------------------
-        // sans utiliser d'itération, ni les tableaux !
+        // sans utiliser l'itération, ni les tableaux !
         // -------------------------------------------
 
         Scanner clavier = new Scanner(System.in);
