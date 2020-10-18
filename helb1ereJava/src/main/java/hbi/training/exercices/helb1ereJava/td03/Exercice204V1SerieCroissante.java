@@ -6,6 +6,13 @@ public class Exercice204V1SerieCroissante {
 
     public static void main(String[] args) {
 
+        /*
+        Les cas suivants NE SONT PAS gérés par ce programme : (essayez de l'améliorer en les prenant en compte :)
+           - la série qui contient un seul nombre
+           - la série qui contient aucun nombre
+           - la série qui contient que des nombres égales ie: 2, 2, 2, 2
+         */
+
         Scanner clavier = new Scanner(System.in);
 
         boolean isCroissant = true;
