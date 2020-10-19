@@ -10,7 +10,7 @@ public class Exercice204V1SerieCroissante {
         Les cas suivants NE SONT PAS gérés par ce programme : (essayez de l'améliorer en les ajoutant :)
            - la série qui contient un seul nombre
            - la série qui contient aucun nombre
-           - la série qui contient que des nombres égales ie: 2, 2, 2, 2
+           - la série qui contient que des nombres égaux ie: 2, 2, 2, 2
          */
 
         Scanner clavier = new Scanner(System.in);
