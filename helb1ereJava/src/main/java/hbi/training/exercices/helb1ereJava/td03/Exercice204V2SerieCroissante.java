@@ -26,11 +26,13 @@ public class Exercice204V2SerieCroissante {
             entree = clavier.nextInt();
 
             if (entree != VALEUR_SENTINELLE) {
+
                 isCroissant = gererIsCroissant(isCroissant, entreePrecedente, entree);
                 isStrictementCroissant = gererIsStrictementCroissant(isStrictementCroissant, entreePrecedente, entree);
 
                 isDecroissant = gererIsDecroissant(isDecroissant, entreePrecedente, entree);
                 isStrictementDecroissant = gererIsStrictementDecroissant(isStrictementDecroissant, entreePrecedente, entree);
+
             }
 
             entreePrecedente = entree;
@@ -40,6 +42,8 @@ public class Exercice204V2SerieCroissante {
 
         afficherResultat(isCroissant, isDecroissant, isStrictementCroissant, isStrictementDecroissant, isTrie);
     }
+
+    // méthodes
 
     private static boolean estCeQueLUtilisateurVeutContinuer(int entree, int valeurSentinelle) {
         return (entree != valeurSentinelle);
