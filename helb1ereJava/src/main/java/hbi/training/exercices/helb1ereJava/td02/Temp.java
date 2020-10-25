@@ -1,21 +1,14 @@
 package hbi.training.exercices.helb1ereJava.td02;
 
+import java.util.Arrays;
+
 public class Temp {
 
     public static void main(String[] args) {
-
-        // décortiquer un entier
-
-        int n = 123444444;
-
-        n = 13;
-
-        System.out.println(n % 2);
-
-        if (n % 2 == 1)
-            System.out.println(n + " est impair");
-        else
-            System.out.println(n + " est pair");
+        
+        int[] tableau = new int[]{5, 3, 2, 1, 9};
+        Arrays.sort(tableau);
+        System.out.println(Arrays.toString(tableau));
 
     }
 
