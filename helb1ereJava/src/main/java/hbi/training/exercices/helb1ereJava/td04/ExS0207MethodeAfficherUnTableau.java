@@ -14,7 +14,7 @@ public class ExS0207MethodeAfficherUnTableau {
         System.out.println("Le tableau est ");
         for (int i = 0; i < tableau.length; i++) {
             System.out.print(tableau[i]);
-            if (i != tableau.length - 1) { // l'affichage ne doit pas se terminer par une virgule
+            if (i != tableau.length - 1) { // l'idéal est que l'affichage ne se termine par une virgule
                 System.out.print(", ");
             }
         }
