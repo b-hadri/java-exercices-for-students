@@ -7,32 +7,32 @@ public class ExS0213RemplirEtTesterV2 {
 
     public static void main(String[] args) {
 
-        int TAILLE_DU_TABLEAU = 3;
+        int TAILLE_DU_TABLEAU = 5;
         int VALEUR_MAX_D_UN_ELEMENT_DU_TABLEAU = 20;
 
         // ---
 
-        int[] t1 = new int[TAILLE_DU_TABLEAU];
-        int[] t2 = new int[TAILLE_DU_TABLEAU];
-
-        t1 = remplirTableau(t1, VALEUR_MAX_D_UN_ELEMENT_DU_TABLEAU);
-
+        int[] t1;
+        int[] t2 = new int[0];
         int compteurTentatives = 0;
 
+        t1 = remplirTableauAvecDesValeursAleatoires(TAILLE_DU_TABLEAU, VALEUR_MAX_D_UN_ELEMENT_DU_TABLEAU);
+
         while (testContenu(t1, t2) == 0) { // tant que c'est faux, tant que les tableaux sont différents
+
             compteurTentatives++;
-            t2 = remplirTableau(t2, VALEUR_MAX_D_UN_ELEMENT_DU_TABLEAU);
+            t2 = remplirTableauAvecDesValeursAleatoires(TAILLE_DU_TABLEAU, VALEUR_MAX_D_UN_ELEMENT_DU_TABLEAU);
+
         }
 
-        afficherTableau(t2);
-        afficherLeNombreDeTentatives(compteurTentatives);
+        afficherResultat(t2, compteurTentatives);
     }
 
-
-    private static int[] remplirTableau(int[] tableau, int valeurMaxDuneValeur) {
+    private static int[] remplirTableauAvecDesValeursAleatoires(int tailleDuTableau, int valeurMaxDuneValeur) {
         Random random = new Random();
+        int[] tableau = new int[tailleDuTableau];
 
-        for (int i = 0; i < tableau.length; i++) {
+        for (int i = 0; i < tailleDuTableau; i++) {
             tableau[i] = random.nextInt(valeurMaxDuneValeur);
         }
 
@@ -67,6 +67,11 @@ public class ExS0213RemplirEtTesterV2 {
         }
 
         return 1;
+    }
+
+    private static void afficherResultat(int[] t2, int compteurTentatives) {
+        afficherTableau(t2);
+        afficherLeNombreDeTentatives(compteurTentatives);
     }
 
     private static void afficherTableau(int[] t2) {
