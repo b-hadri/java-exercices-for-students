@@ -17,10 +17,13 @@ public class AutoEvaEx01TriABulle {
     }
 
     private static int[] triABulle(int[] tableau) {
+        // si le tableau est vide ou si sa taille est de 1, il n'est pas necessaire de le trier
         if (tableau.length == 0 || tableau.length == 1) {
             return tableau;
         }
 
+        // tri a bulle
+        // faire emerger ou pousser la plus grande valeur vers la droite
         for (int i = tableau.length; i > 1; i--) {
             for (int j = 1; j < i; j++) {
                 if (tableau[j - 1] > tableau[j]) {
