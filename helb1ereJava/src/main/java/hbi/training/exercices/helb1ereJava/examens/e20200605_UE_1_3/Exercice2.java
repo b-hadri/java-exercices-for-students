@@ -21,6 +21,7 @@ public class Exercice2 {
 
          */
 
+
         // Exemple 1
 //        String chaine = "[racine]du contenu [adresse]23 rue des ciseaux[esserda] une plante [enicar]";
 //        extraireContenu(chaine);
@@ -56,15 +57,14 @@ public class Exercice2 {
         System.out.println("Niveau 0 :\tpas de motif\t=> " + chaine);
 
         boolean continuerAChercher = true;
-        String tmpChaine = chaine;
         int niveau = 1;
         while (continuerAChercher) {
-            String motifTrouvé = trouverMotif(tmpChaine);
+            String motifTrouvé = trouverMotif(chaine);
             if (motifTrouvé == "") {
                 continuerAChercher = false;
             } else {
-                tmpChaine = extraireEntreMotif(tmpChaine, motifTrouvé);
-                System.out.println("Niveau " + niveau + " :\tmotif = [" + motifTrouvé + "]\t=> " + tmpChaine);
+                chaine = extraireEntreMotif(chaine, motifTrouvé);
+                System.out.println("Niveau " + niveau + " :\tmotif = [" + motifTrouvé + "]\t=> " + chaine);
             }
             niveau++;
         }

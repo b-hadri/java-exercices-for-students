@@ -1,4 +1,4 @@
-package hbi.training.exercices.helb1ereJava.examens.janvier20180115;
+package hbi.training.exercices.helb1ereJava.examens.e20180115;
 
 // Exercice 2 de 2018 01 15 UE 1.2 - examen programmation 1 - Exam Tableau + liste chainee
 // non complet
