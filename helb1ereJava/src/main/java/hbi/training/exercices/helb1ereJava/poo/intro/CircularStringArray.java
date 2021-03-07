@@ -9,7 +9,7 @@ public class CircularStringArray {
     }
 
     public String getItem(int i) {
-        int indexArray = i % array.length; // 1 ;
+        int indexArray = i % array.length;
 
         if (indexArray < 0) {
             indexArray = array.length + indexArray;
