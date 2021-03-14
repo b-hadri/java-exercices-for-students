@@ -1,5 +1,9 @@
 package hbi.training.exercices.helb1ereJava.poo.ex08;
 
+/*
+un point est le plus petit élément constitutif de l'espace géométrique,
+c'est-à-dire un lieu au sein duquel on ne peut distinguer aucun autre lieu que lui-même.
+ */
 public class Point {
 
     private double x;
