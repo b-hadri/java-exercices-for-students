@@ -27,7 +27,7 @@ public class Tableau implements IVecteur {
     }
 
     @Override
-    public void affecterAvecLaMemeValeur(int d) {
+    public void affecterLaMemeValeurATousLesElements(int d) {
         for (int i = 0; i < this.elements.length; i++) {
             this.elements[i] = d;
         }

@@ -28,7 +28,7 @@ public class Main {
         v1.affecterUneValeur(6, 1);
         v1.affecterUneValeur(1, 2);
 
-        v2.affecterAvecLaMemeValeur(5);
+        v2.affecterLaMemeValeurATousLesElements(5);
 
         // ps = v1[0]*v2[0] + v1[1]*v2[1] + v1[2]*v2[2]
 

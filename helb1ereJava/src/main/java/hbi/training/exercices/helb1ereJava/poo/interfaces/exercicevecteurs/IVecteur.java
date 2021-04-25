@@ -8,7 +8,7 @@ public interface IVecteur {
 
     public int accederALaValeur(int index);
 
-    public void affecterAvecLaMemeValeur(int d);
+    public void affecterLaMemeValeurATousLesElements(int d);
 
     public int produitScalaireAvec(IVecteur v2);
 
