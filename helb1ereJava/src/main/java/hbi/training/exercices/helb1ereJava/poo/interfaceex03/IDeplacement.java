@@ -7,9 +7,6 @@ public interface IDeplacement {
 
     default void deplacementEnY() { }
 
-    default void seDeplacer() {
-        deplacementEnX();
-        deplacementEnY();
-    }
+    void seDeplacer();
 
 }
