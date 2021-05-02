@@ -2,15 +2,14 @@ package hbi.training.exercices.helb1ereJava.poo.interfaceex03;
 
 public interface IDeplacement {
 
-    // méthode d'interface avec méthode par défaut
-    default void deplacementEnX() {
-        System.out.println("Aucun déplacement défini");
-    }
+    // méthode d'interface avec méthode vide par défaut (aucun déplacement)
+    default void deplacementEnX() { }
 
-    default void deplacementEnY() {
-        System.out.println("Aucun déplacement défini");
-    }
+    default void deplacementEnY() { }
 
-    void seDeplacer();
+    default void seDeplacer() {
+        deplacementEnX();
+        deplacementEnY();
+    }
 
 }

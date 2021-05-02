@@ -14,12 +14,6 @@ public abstract class MoyenDeTransport implements IDeplacement {
         this.vitesse = vitesse;
     }
 
-    @Override
-    public void seDeplacer() {
-        this.deplacementEnX();
-        this.deplacementEnY();
-    }
-
     public void afficher() {
         System.out.println("La position est "+this.x+" / "+this.y);
     }

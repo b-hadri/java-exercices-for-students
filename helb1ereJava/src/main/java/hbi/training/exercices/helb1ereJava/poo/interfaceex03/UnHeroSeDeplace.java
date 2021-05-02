@@ -4,9 +4,9 @@ public class UnHeroSeDeplace {
 
     public static void main(String[] args) {
 
-        Voiture voiture = new Voiture(0, 0, 25);
-        Ascenseur ascenseur = new Ascenseur(1, 1, 3);
-        Fusee fusee = new Fusee(20, 20, 150);
+        MoyenDeTransport voiture = new Voiture(0, 0, 25);
+        MoyenDeTransport ascenseur = new Ascenseur(1, 1, 3);
+        MoyenDeTransport fusee = new Fusee(20, 20, 150);
 
         voiture.afficher();
         voiture.seDeplacer();
