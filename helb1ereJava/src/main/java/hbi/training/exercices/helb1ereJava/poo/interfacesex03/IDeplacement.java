@@ -1,4 +1,4 @@
-package hbi.training.exercices.helb1ereJava.poo.interfaceex03;
+package hbi.training.exercices.helb1ereJava.poo.interfacesex03;
 
 public interface IDeplacement {
 

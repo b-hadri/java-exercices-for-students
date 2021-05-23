@@ -1,17 +1,16 @@
-package hbi.training.exercices.helb1ereJava.poo.interfaceex03;
+package hbi.training.exercices.helb1ereJava.poo.interfacesex03;
 
-public class Voiture extends MoyenDeTransport {
+public class Ascenseur extends MoyenDeTransport {
 
-
-    public Voiture(int x, int y, int vitesse) {
+    public Ascenseur(int x, int y, int vitesse) {
         super(x, y, vitesse);
     }
 
     @Override
-    public void deplacementEnX() {
+    public void deplacementEnY() {
 
-        int vitesseMaximale = this.VITESSE_INITIALE * 10;
-        int deplacementMaximal = 100;
+        int vitesseMaximale = this.VITESSE_INITIALE * 5;
+        int deplacementMaximal = 50;
 
         if (this.vitesse > vitesseMaximale) {
             System.out.println("La vitesse est trop grande. Pas de déplacement.");
@@ -19,13 +18,12 @@ public class Voiture extends MoyenDeTransport {
             return;
         }
 
-        if ( (this.x + this.vitesse)  > deplacementMaximal) {
+        if ( (this.y + this.vitesse)  > deplacementMaximal) {
             System.out.println("Le déplacement ne peut dépasser "+deplacementMaximal+". Pas de déplacement");
             return;
         }
 
-        this.x += this.vitesse;
-
+        this.y += this.vitesse;
     }
 
 }
