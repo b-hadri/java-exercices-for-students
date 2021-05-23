@@ -3,7 +3,7 @@
 ## Buts
 
 * Simulation de l'examen en mode coooool et fun
-* Utilisation la Programmation Orientée Objet, JAVA II
+* Utilisation de la Programmation Orientée Objet, JAVA II
 
 ## Règles
 
