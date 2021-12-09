@@ -1,5 +1,12 @@
 package hbi.training.exercices.helb1ereJava.poo.exsnakegame;
 
+import org.jline.terminal.Terminal;
+import org.jline.terminal.TerminalBuilder;
+import org.jline.utils.NonBlockingReader;
+
+import java.io.IOException;
+import java.util.Scanner;
+
 public class JeuDeSerpent {
 
     private Joueur joueur;
@@ -15,34 +22,47 @@ public class JeuDeSerpent {
     }
 
     public void commencerLeJeu() {
-        System.out.println("Le jeu commence");
+        System.out.println("Le jeu commence : )");
 
-        System.out.println(this.retournerLEtatDuJeu());
+        try {
+            Terminal terminal = getTerminal();
 
-        serpent.avancer();
-        System.out.println(this.retournerLEtatDuJeu());
+            // raw mode means we get keypresses rather than line buffered input
+            terminal.enterRawMode();
+            NonBlockingReader reader = terminal.reader();
 
-        serpent.avancer();
-        System.out.println(this.retournerLEtatDuJeu());
+            int count = 0;
 
-        serpent.avancer();
-        System.out.println(this.retournerLEtatDuJeu());
+            boolean continueToPlay = true;
+            do {
+                // Character input
+                int read = reader.read();
 
-        serpent.avancer();
-        System.out.println(this.retournerLEtatDuJeu());
+                System.out.println("read = " + read);
 
-        serpent.avancer();
-        System.out.println(this.retournerLEtatDuJeu());
+                if (count == 5)
+                    continueToPlay = false;
 
-        serpent.avancer();
-        System.out.println(this.retournerLEtatDuJeu());
+                count++;
+            } while (continueToPlay);
 
-        serpent.avancer();
-        System.out.println(this.retournerLEtatDuJeu());
+            // serpent.tourner(direction);
+            // serpent.avancer();
+            // System.out.println(this.retournerLEtatDuJeu());
 
-        // serpent.tourner(direction);
-        // serpent.avancer();
-        // System.out.println(this.retournerLEtatDuJeu());
+            reader.close();
+            terminal.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    private Terminal getTerminal() throws IOException {
+        return TerminalBuilder.builder()
+                              .jna(true)
+                              .system(true)
+                              .build();
 
     }
 
@@ -51,7 +71,7 @@ public class JeuDeSerpent {
 
         out.append("============================================" + "\n");
         out.append(this.joueur + "\n");
-        out.append("La longueur du serpent: "+serpent.getLongueur() + "\n");
+        out.append("La longueur du serpent: " + serpent.getLongueur() + "\n");
         out.append(this.grille.afficherLaGrilleAvec(this.serpent));
 
         return out.toString();
