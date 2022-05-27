@@ -5,5 +5,4 @@ public enum DirectionEnum {
     EST,
     SUD,
     OUEST;
-
 }

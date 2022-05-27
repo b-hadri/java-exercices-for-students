@@ -1,0 +1,254 @@
+Encodage des livres, suivi par un tri, suivi par l'affichage de la bibliothèque : 
+
+Voici la liste des livres de la bibliothèque
+============================================
+
+Titre:  Algèbre Moderne et Théorie des Graphes
+*****
+	Auteur:		ROY B.
+	------
+	ISBN:		673-1394826973
+	----
+	Statut: 	le livre est disponible dans la bibliothèque
+	------
+	Localisation:	AS12
+	------------
+
+Titre:  Algorithmique combinatoire
+*****
+	Auteur:		LEVY G.
+	------
+	ISBN:		762-0612625415
+	----
+	Statut: 	le livre est disponible dans la bibliothèque
+	------
+	Localisation:	AS30
+	------------
+
+Titre:  Réseaux
+*****
+	Auteur:		Andrew Tanenbaum
+	------
+	ISBN:		316-1910384155
+	----
+	Statut: 	le livre est disponible dans la bibliothèque
+	------
+	Localisation:	PN43
+	------------
+
+Titre:  Outils logiques pour l'intelligence artificielle
+*****
+	Auteur:		J.P. Delahaye
+	------
+	ISBN:		316-0918344482
+	----
+	Statut: 	le livre est disponible dans la bibliothèque
+	------
+	Localisation:	QA76
+	------------
+
+Titre:  Analyse 1ère année
+*****
+	Auteur:		Liret-Martinais
+	------
+	ISBN:		763-6722556028
+	----
+	Statut: 	le livre est disponible dans la bibliothèque
+	------
+	Localisation:	QA77
+	------------
+
+Titre:  Programmer en langage C
+*****
+	Auteur:		DELANNOY C.
+	------
+	ISBN:		478-2123602336
+	----
+	Statut: 	le livre est disponible dans la bibliothèque
+	------
+	Localisation:	SA64
+	------------
+
+Titre:  Le langage C
+*****
+	Auteur:		FIEUX L.
+	------
+	ISBN:		444-1234563426
+	----
+	Statut: 	le livre est disponible dans la bibliothèque
+	------
+	Localisation:	TD6
+	------------
+
+Titre:  Bases de données et modèles de calcul
+*****
+	Auteur:		J.-L. Hainaut
+	------
+	ISBN:		141-1800394452
+	----
+	Statut: 	le livre est disponible dans la bibliothèque
+	------
+	Localisation:	TS19
+	------------
+
+Titre:  Architecture de l'Ordinateur
+*****
+	Auteur:		Andrew Tanembaum
+	------
+	ISBN:		978-2729601331
+	----
+	Statut: 	Un livre de collection ne peut pas être emprunté
+	------
+	Localisation:	UB40
+	------------
+	Collection:	Sensass
+	----------
+
+Titre:  Approches impérative et fonctionnelle de l'algorithmique
+*****
+	Auteur:		VEIGNEAU S.
+	------
+	ISBN:		645-0209142674
+	----
+	Statut: 	Un livre de collection ne peut pas être emprunté
+	------
+	Localisation:	UB66
+	------------
+	Collection:	Sensass
+	----------
+
+--------------------------------------------------------------------------------------
+
+Eden Hazard emprunte le livre AS30 pour un retour le 29/08/2021
+Pipo Inzaghi souhaite emprunter le livre AS30 mais cela est impossible car le livre est déjà en prêt
+Eden Hazard emprunte le livre PN43 pour un retour le 01/09/2021
+Eden Hazard ne peut pas emprunter le livre UB40 car il s'agit d'un livre de collection
+
+Thomas Meunier emprunte le livre TS19 pour un retour le 02/10/2021
+Le livre HH22 demandé par Vincent Kompany n'a pas été trouvé donc emprunt impossible
+
+Le livre PN43 est de retour
+Le livre PN43 n'est pas parti en prêt donc le retour n'a pas lieu d'être.
+Le livre de collection UB40 ne peut pas être retourné car il n'a pas pu être emprunté
+
+Vincent Kompany emprunte le livre PN43 pour un retour le 10/09/2021
+
+Voici la liste des livres de la bibliothèque
+============================================
+
+Titre:  Algèbre Moderne et Théorie des Graphes
+*****
+	Auteur:		ROY B.
+	------
+	ISBN:		673-1394826973
+	----
+	Statut: 	le livre est disponible dans la bibliothèque
+	------
+	Localisation:	AS12
+	------------
+
+Titre:  Algorithmique combinatoire
+*****
+	Auteur:		LEVY G.
+	------
+	ISBN:		762-0612625415
+	----
+	Statut: 	le livre a été emprunté par Eden Hazard et sera de retour le 29/08/2021
+	------
+	Localisation:	AS30
+	------------
+
+Titre:  Réseaux
+*****
+	Auteur:		Andrew Tanenbaum
+	------
+	ISBN:		316-1910384155
+	----
+	Statut: 	le livre a été emprunté par Vincent Kompany et sera de retour le 10/09/2021
+	------
+	Localisation:	PN43
+	------------
+
+Titre:  Outils logiques pour l'intelligence artificielle
+*****
+	Auteur:		J.P. Delahaye
+	------
+	ISBN:		316-0918344482
+	----
+	Statut: 	le livre est disponible dans la bibliothèque
+	------
+	Localisation:	QA76
+	------------
+
+Titre:  Analyse 1ère année
+*****
+	Auteur:		Liret-Martinais
+	------
+	ISBN:		763-6722556028
+	----
+	Statut: 	le livre est disponible dans la bibliothèque
+	------
+	Localisation:	QA77
+	------------
+
+Titre:  Programmer en langage C
+*****
+	Auteur:		DELANNOY C.
+	------
+	ISBN:		478-2123602336
+	----
+	Statut: 	le livre est disponible dans la bibliothèque
+	------
+	Localisation:	SA64
+	------------
+
+Titre:  Le langage C
+*****
+	Auteur:		FIEUX L.
+	------
+	ISBN:		444-1234563426
+	----
+	Statut: 	le livre est disponible dans la bibliothèque
+	------
+	Localisation:	TD6
+	------------
+
+Titre:  Bases de données et modèles de calcul
+*****
+	Auteur:		J.-L. Hainaut
+	------
+	ISBN:		141-1800394452
+	----
+	Statut: 	le livre a été emprunté par Thomas Meunier et sera de retour le 02/10/2021
+	------
+	Localisation:	TS19
+	------------
+
+Titre:  Architecture de l'Ordinateur
+*****
+	Auteur:		Andrew Tanembaum
+	------
+	ISBN:		978-2729601331
+	----
+	Statut: 	Un livre de collection ne peut pas être emprunté
+	------
+	Localisation:	UB40
+	------------
+	Collection:	Sensass
+	----------
+
+Titre:  Approches impérative et fonctionnelle de l'algorithmique
+*****
+	Auteur:		VEIGNEAU S.
+	------
+	ISBN:		645-0209142674
+	----
+	Statut: 	Un livre de collection ne peut pas être emprunté
+	------
+	Localisation:	UB66
+	------------
+	Collection:	Sensass
+	----------
+
+--------------------------------------------------------------------------------------
+
